@@ -471,9 +471,10 @@
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
         </button>
-        <p class="modal_title">Залиште свої дані, ми вам передзвонимо</p>
+        <h3 class="modal_title">Залиште свої дані, ми вам передзвонимо</h3>
+  
         <form class="modal_form">
-          <label>
+          <label class="input">
             <span class="input_title">Ім'я</span>
             <input
               type="text"
@@ -482,8 +483,12 @@
               placeholder=""
               required
             />
+            <svg class="modal-icon-1" width="14" height="14">
+              <use href="./images/icons.svg#icon-person-black"></use>
+            </svg>
           </label>
-          <label>
+
+          <label class="input">
             <span class="input_title">Телефон</span>
             <input
               type="tel"
@@ -492,9 +497,13 @@
               placeholder=""
               required
             />
+            <svg class="modal-icon-2" width="14" height="14">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
           </label>
-          <label
-            ><span class="input_title">Пошта</span>
+      
+          <label class="">
+            <span class="input_title">Пошта</span>
             <input
               type="email"
               class="form_input"
@@ -502,6 +511,9 @@
               placeholder=""
               required
             />
+            <svg class="modal-icon-3" width="14" height="14">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
           </label>
           <div>
             <label for="user_comment" class="input_title">Коментар</label>
@@ -516,8 +528,8 @@
         <svg class="icon-icon-check" width="16" height="15">
             <use href="./images/icons.svg#icon-icon-check"></use>
         </svg>
-           <input  class="input_checkbox"
-            type="submit">
+           <input class="input_checkbox"
+            type="checkbox">
             Погоджуюся з розсилкою та приймаю
             <a href="#">Умови договору</a>
         </div>
