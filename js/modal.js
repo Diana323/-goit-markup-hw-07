@@ -12,3 +12,17 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+function* getNumber(){
+yield 7;
+yield 2;
+yield 9;
+}
+const numberGenerator=getNumber();
+let next=numberGenerator.next();
+
+console.log(next);
+console.log(numberGenerator.next());
+console.log(numberGenerator.next());
+console.log(numberGenerator.next());
+
