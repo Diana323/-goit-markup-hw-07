@@ -1,0 +1,31 @@
+.header-logo span {
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  font-family: "Raleway";
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #000000;
+}
+
+.logo span {
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--color-sky-);
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+a.logo {
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  font-family: "Raleway";
+  font-weight: 700;
+  color: #000000;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}/*# sourceMappingURL=logo.css.map */
