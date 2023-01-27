@@ -74,6 +74,19 @@
             left: 0;
         
     }
+    .button .test-link {
+        background: #2196F3;
+        cursor: pointer;
+        font-family: 'Roboto' sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        line-height: 1.87;
+        color: var(--color-milk-)
+    }
+    .cont-list:last-child{
+         margin-right: 0;
+    }
     .portfolio_border::after{
         position: absolute;
         content: "";

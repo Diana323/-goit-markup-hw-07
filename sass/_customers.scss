@@ -4,6 +4,9 @@
 }
 .client-item{
 margin-right: 30px;
+&:last-child{
+    margin-right: 0px;
+}
 }
 .clients-link {
     display: flex;
@@ -18,15 +21,20 @@ margin-right: 30px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+        border-color: #2196F3;
+        fill: #2196F3;
+    }
 }
-.clients-link:hover,
-.clients-link:focus {
-    border-color: #2196F3;
-    fill: #2196F3;
-}
-.client-item:last-child{
-    margin-right: 0px;
-}
+// .clients-link:hover,
+// .clients-link:focus {
+//     border-color: #2196F3;
+//     fill: #2196F3;
+// }
+// .client-item:last-child{
+//     margin-right: 0px;
+// }
 .clients-icon{
     margin-top: 15px;
 }

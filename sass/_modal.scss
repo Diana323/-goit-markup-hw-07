@@ -111,11 +111,11 @@
     fill: #2196F3;
 }
 
-//  .input:focus-within{
+ .input:focus-within{
   
-//     fill:#2196F3;
+    fill:#2196F3;
 
-//  }
+ }
 .form_input::placeholder{
     font-weight: 400;
     font-size:14px;
@@ -136,9 +136,7 @@
      margin-bottom: 4px;
      margin-top: 31px;
  }
- /* .user_comment{
- 
- } */
+
  .modal_text{
      width: 100%;
      height: 120px;
@@ -233,4 +231,19 @@
  .input_checkbox:checked + .label_checkbox .check_icon{
      fill: #F5F4FA;
  }
- 
+ .label_checkbox::before{
+    /* content: ""; */
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 3px;
+    margin-right: 8px;
+    transition: backgraund-color 250ms linear;
+}
+.input_checkbox:checked + .label_checkbox::before{
+   background-color: #2196F3;
+   background-image: url(../images/check.svg);
+   border: none;
+   background-repeat: no-repeat;
+   background-position: center;
+}

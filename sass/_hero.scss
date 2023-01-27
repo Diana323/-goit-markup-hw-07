@@ -60,4 +60,8 @@
 background: #188CE8;
 color: var(--color-milk-)
 }
+&:last-child{
+    padding-left: 0px;
+    padding-top: 0px;    
+}
 }
