@@ -1,23 +1,15 @@
 .section {
      .bt {
     font-family: 'Roboto';
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-
-    letter-spacing: 0.03em;
+    @include font(500, 16, 1.62, 0.03em);
     color: #212121;
     background-color: #F5F4FA;
 }
 }
-.btn{
+.btn {
     padding-bottom: 50px;
-   
 }
-
 .bt {
-    font-weight: 500;
     cursor: pointer;
     width: 112px;
     height: 38px;
@@ -26,12 +18,8 @@
     background-color: #F5F4FA;
    
     font-family: inherit;
-    font-size: 16px;
-    line-height: 1.16;
-    /* identical to box height, or 162% */
+    @include font(500, 16px, 1.16, 0.03em);
     border: none;
-
-    letter-spacing: 0.03em;
     border-radius: 4px;
     margin-left: 10px;
     color: var(--main-color);
@@ -46,7 +34,6 @@
         margin-left: 0px;
     }
 }
-/////////////////////
 .filters {
     display: flex;
     justify-content: center;
@@ -54,7 +41,6 @@
 }
 .navigation {
     color: var(--main-color);
-   
     display: flex;
     margin-left: 93px;
 }
@@ -99,18 +85,13 @@
 }
 }
 .address-nav {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    @include font(500, 14px, 16px, 0.02em);
     text-decoration: none;
     color: #757575;
-    
     margin-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 &:last-child{
     margin-right: 0px;
 }}

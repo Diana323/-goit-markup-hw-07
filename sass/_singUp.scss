@@ -1,6 +1,5 @@
 .sing_up{
     display: flex;
-
 }
 .icon_send{
     width: 24px;
@@ -16,16 +15,11 @@
     justify-content: center;
     padding-top: 10px;
     margin-left: 10px;
+    &:hover{
+      background-color: #188CE8;
+      color: #ECECEC;
+    }
 }
-.send:hover{
-  background-color: #188CE8;
-  color: #ECECEC;
-
-}
-/* .send_flex_element{
-
-} */
-
 .modal-icon {
     position: absolute;
     top: 50%;
@@ -34,8 +28,7 @@
     width: 18px;
     height: 18px;
   }
-
-  .connection-field {
+.connection-field {
     display: block;
     margin-bottom: 30px;
     width: 330px;

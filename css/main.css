@@ -156,7 +156,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.03em;
   color: #2196F3;
 }
-
+.title__footer {
+  font-weight: 700px;
+  Letter-spacing: 3%;
+  Font-style: Bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
 .navigation-footer :focus,
 .navigation-footer :hover,
 a.navigation-footer {
@@ -179,16 +188,7 @@ a.navigation-footer {
   padding-bottom: 0px;
 }
 
-.title__footer {
-  font-weight: 700px;
-  Letter-spacing: 3%;
-  Font-style: Bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  padding-bottom: 20px;
-}
+
 
 .wrap_contacts {
   margin-right: 70px;

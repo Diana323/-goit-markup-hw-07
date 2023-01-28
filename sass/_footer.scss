@@ -6,9 +6,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     outline: none;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
+    @include font(400, 16px, 20px, 0.03em);
     background-color: #2F303A;
     color: #AFB1B8;
     &::placeholder{
@@ -25,33 +23,20 @@
 //////
 .page-title-footer {
     background-color: var(--color-grey---);
-    letter-spacing: 0.06em;
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @include font(700, 26px, 1.19, 0.06em);
     margin: auto;
 }////
 
 .footer-logo {
     padding-bottom: 20px;
-
     font-family: 'Raleway';
     color: var(--color-milk-);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    
-    letter-spacing: 0.03em;
+    @include font(700, 26px, 1.19, 0.03em);
 }
 
 .footer-logo span {
-    font-size: 26px;
-    line-height: 1.19;
-    /* identical to box height */
     font-family: 'Raleway';
-    font-weight: 700;
-    letter-spacing: 0.03em;
+    @include font(700, 26px, 1.19, 0.03em);
     color: #2196F3
 }
 .navigation-footer :focus,
@@ -64,25 +49,16 @@ a.navigation-footer {
 
 
 .address-footer {
-    font-weight: 400;
-    font-size: 14px;
+    @include font(400, 14px, 1.71, 0.3em);
     font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
     padding-bottom: 9px;
     color: rgba(256, 256, 256, 0.6);
     &:last-child{ padding-bottom: 0px;
     }
-
 }
 .title__footer{
-    
-    font-weight: 700px;
-    Letter-spacing: 3%;
+    @include font(700, 14px, 16px, 3%);
     Font-style: Bold;
-    font-size: 14px;
-    line-height: 16px;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 20px;
@@ -120,25 +96,19 @@ a.navigation-footer {
         fill: #FFFFFF;
         background-color: #2196F3; 
     }
+    &:last-child{
+        margin-right: 0px;
+    }
     .my_link_footer:hover &{
         fill: #FFFFFF;
         background-color: #2196F3; 
     }
 }
-.footer__soc_item{
-    &:last-child{margin-right: 0px;
-}
-}
-
 .footer_soc_icon{
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 1.71, 0.03em);
     font-style: normal;
     color: #FFFFFF;
 }

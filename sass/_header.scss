@@ -1,91 +1,82 @@
 .list {
-    font-weight: 500px;
     text-decoration: none;
     color: var(--main-color);
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
+    @include font(500, 20px, 1.17, 0.02em);
     padding-top: 20px;
     padding-bottom: 27px;
-    
     position: relative;
 }
 .item {
     fill: #757575;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     position: relative;
     &:hover {
     fill: #2196F3;
 }
 }
-
-
-.index_border::after{
-    position: absolute;
-    content: "";
-    display: block;
- 
-     width: 100%;
-    height: 4px;
-    background-color: #2196F3;
-    border-radius: 2px;
-    
-    bottom: -4px;
-        left: 0;
-    
-}
-.portfolio_border::after{
-    position: absolute;
-    content: "";
-    display: block;
-
-    width: 100%;
-    height: 4px;
-    background-color: #2196F3;
-    border-radius: 2px;
-
-    bottom: -4px;
-    left: 0;
-}
-.header_icon_email, .header_icon_phone{
-    margin-right: 10px;
-    }
-     /* //////////////header ///////// */
-    .header{
-        border-bottom: 1px solid #ECECEC;  
-    }
-    .header-hp {
-        display: flex;
-        font-weight: 500;
-        height: 80px;
-    }
-    .index_border::after{
+.index_border{
+    &::after{
         position: absolute;
         content: "";
         display: block;
      
-         width: 100%;
+        width: 100%;
         height: 4px;
         background-color: #2196F3;
         border-radius: 2px;
         
         bottom: -4px;
-            left: 0;
+        left: 0; 
+    }
+   
+}
+.portfolio_border{
+    &::after{
+        position: absolute;
+        content: "";
+        display: block;
+    
+        width: 100%;
+        height: 4px;
+        background-color: #2196F3;
+        border-radius: 2px;
+    
+        bottom: -4px;
+        left: 0;
+    }
+}
+.header_icon_email, .header_icon_phone{
+        margin-right: 10px;
+    }
+.header{
+        border-bottom: 1px solid #ECECEC;  
+    }
+.header-hp {
+        display: flex;
+        font-weight: 500;
+        height: 80px;
+    }
+.index_border{
+    &::after{
+        position: absolute;
+        content: "";
+        display: block;
+     
+        width: 100%;
+        height: 4px;
+        background-color: #2196F3;
+        border-radius: 2px;
         
+        bottom: -4px;
+        left: 0;
+    }
     }
     .button .test-link {
         background: #2196F3;
         cursor: pointer;
         font-family: 'Roboto' sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.06em;
-        line-height: 1.87;
+        @include font(700, 16px, 1.87, 0.06em);
         color: var(--color-milk-)
-    }
-    .cont-list:last-child{
-         margin-right: 0;
     }
     .portfolio_border::after{
         position: absolute;

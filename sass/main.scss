@@ -8,7 +8,6 @@ img {
     display: block;
     height: auto;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -31,6 +30,10 @@ h1,h2,h3,h4,h5,h6,p,ul {
     clip-path: inset(50%);
     margin: -1px;
 }
+@import'../utils/mixin';
+@import'../utils/placeholders';
+@import'../utils/variables';
+
 @import'./customers';
 @import'./footer';
 @import'./header';
@@ -43,6 +46,3 @@ h1,h2,h3,h4,h5,h6,p,ul {
 @import'./singUp';
 @import'./team';
 @import'./text';
-@import'../utils/mixin';
-@import'../utils/placeholders';
-@import'../utils/variables';

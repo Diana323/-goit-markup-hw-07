@@ -9,10 +9,7 @@ margin-right: 30px;
 }
 }
 .clients-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    @extend flex;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
