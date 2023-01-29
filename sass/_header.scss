@@ -1,7 +1,10 @@
-.list {
+.navigation__link{
+    font-weight: 500px;
     text-decoration: none;
     color: var(--main-color);
-    @include font(500, 20px, 1.17, 0.02em);
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
     padding-top: 20px;
     padding-bottom: 27px;
     position: relative;
@@ -14,69 +17,71 @@
     fill: #2196F3;
 }
 }
-.index_border{
-    &::after{
-        position: absolute;
-        content: "";
-        display: block;
-     
-        width: 100%;
-        height: 4px;
-        background-color: #2196F3;
-        border-radius: 2px;
-        
-        bottom: -4px;
-        left: 0; 
-    }
-   
-}
-.portfolio_border{
-    &::after{
-        position: absolute;
-        content: "";
-        display: block;
+.index_border::after{
+    position: absolute;
+    content: "";
+    display: block;
+ 
+     width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
     
-        width: 100%;
-        height: 4px;
-        background-color: #2196F3;
-        border-radius: 2px;
-    
-        bottom: -4px;
+    bottom: -4px;
         left: 0;
-    }
+    
+}
+.portfolio_border::after{
+    position: absolute;
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
+
+    bottom: -4px;
+    left: 0;
 }
 .header_icon_email, .header_icon_phone{
-        margin-right: 10px;
+    margin-right: 10px;
     }
-.header{
+     /* //////////////header ///////// */
+    .header{
         border-bottom: 1px solid #ECECEC;  
     }
-.header-hp {
+    .header-hp {
         display: flex;
         font-weight: 500;
         height: 80px;
     }
-.index_border{
-    &::after{
+    .index_border::after{
         position: absolute;
         content: "";
         display: block;
      
-        width: 100%;
+         width: 100%;
         height: 4px;
         background-color: #2196F3;
         border-radius: 2px;
         
         bottom: -4px;
-        left: 0;
-    }
+            left: 0;
+        
     }
     .button .test-link {
         background: #2196F3;
         cursor: pointer;
         font-family: 'Roboto' sans-serif;
-        @include font(700, 16px, 1.87, 0.06em);
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        line-height: 1.87;
         color: var(--color-milk-)
+    }
+    .cont-list:last-child{
+         margin-right: 0;
     }
     .portfolio_border::after{
         position: absolute;
@@ -91,4 +96,3 @@
         bottom: -4px;
         left: 0;
     }
-    

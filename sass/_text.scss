@@ -1,29 +1,29 @@
 .section-hhh {
-    @include font(700, 14px, 1.14, 0.03em);
+    @include font(700, 14, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--main-color);
 }
 .text{
-    @include font(400, 16px, 1.89, 0.03em);
+    @include font(400, 16, 1.89, 0.03em);
     color: #757575;
     text-align: center;
 }
 .text-desc{
-    @include font(400, 14px, 1.71, 0.03em);
+    @include font(400, 14, 1.71, 0.03em);
     color: #757575;
 }
 .section-color{
     background-color: #F5F4FA;
 }
 .people {
-    @include font(500, 16px, 1.18, 0.03em);
+    @include font(500, 16, 1.18, 0.03em);
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
     color: var(--main-color);
 }
 .portfolio-semple {
-    @include font(700, 18px, 2.0, 0.06em);
+    @include font(700, 18, 2.0, 0.06em);
     padding-top: 20px;
     padding-bottom: 4px;
     padding-left: 24px;
@@ -31,7 +31,7 @@
     color: var(--main-color);
 }
 .subtitle {
-    @include font(400, 16px, 1.88, 0.03em);
+    @include font(400, 16, 1.88, 0.03em);
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;

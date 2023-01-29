@@ -18,7 +18,7 @@
     background-color: #F5F4FA;
    
     font-family: inherit;
-    @include font(500, 16px, 1.16, 0.03em);
+    @include font(500, 16, 1.16, 0.03em);
     border: none;
     border-radius: 4px;
     margin-left: 10px;
@@ -39,20 +39,8 @@
     justify-content: center;
     gap: 8px;
 }
-.navigation {
-    color: var(--main-color);
-    display: flex;
-    margin-left: 93px;
-}
-.navigation {
-    .item{
-    margin-right: 20px;
 
-&:last-child{
-    margin-right:0px;
-  }
- }
-}
+
 // .navigation {
 //     color: var(--main-color);
 //     display: flex;
@@ -85,13 +73,19 @@
 }
 }
 .address-nav {
-    @include font(500, 14px, 16px, 0.02em);
+    @include font(500, 14, 16, 0.02em);
+    // font-size: 14px;
+    // font-weight: 500;
+    // line-height: 16px;
+    // letter-spacing: 0.02em;
     text-decoration: none;
     color: #757575;
+    
     margin-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 &:last-child{
     margin-right: 0px;
 }}
