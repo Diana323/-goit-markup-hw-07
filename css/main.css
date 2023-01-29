@@ -52,7 +52,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .client-item:last-child {
   margin-right: 0px;
 }
-
 .clients-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,11 +76,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
   border-color: #2196F3;
   fill: #2196F3;
 }
-
 .clients-icon {
   margin-top: 15px;
 }
-
 .footer_form {
   width: 358px;
   height: 50px;
@@ -251,8 +248,7 @@ a.navigation-footer {
   font-style: normal;
   color: #FFFFFF;
 }
-
-.list {
+.navigation__link {
   font-weight: 500px;
   text-decoration: none;
   color: var(--main-color);
