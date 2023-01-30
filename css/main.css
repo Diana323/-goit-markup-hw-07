@@ -248,7 +248,7 @@ a.navigation-footer {
   font-style: normal;
   color: #FFFFFF;
 }
-.navigation__link {
+.list {
   font-weight: 500px;
   text-decoration: none;
   color: var(--main-color);
