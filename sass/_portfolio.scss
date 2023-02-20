@@ -2,6 +2,11 @@
     position: relative;
     overflow: hidden;
 }
+.section-hhh {
+    @include font(700, 14, 1.14, 0.03em);
+    text-transform: uppercase;
+    color: var(--main-color);
+}
 .position_action{
     position: absolute;
     top: 0;

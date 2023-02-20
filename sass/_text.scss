@@ -1,8 +1,4 @@
-.section-hhh {
-    @include font(700, 14, 1.14, 0.03em);
-    text-transform: uppercase;
-    color: var(--main-color);
-}
+
 .text{
     @include font(400, 16, 1.89, 0.03em);
     color: #757575;
