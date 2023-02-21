@@ -73,11 +73,11 @@
 }
 }
 .address-nav {
-    @include font(500, 14, 16, 0.02em);
-    // font-size: 14px;
-    // font-weight: 500;
-    // line-height: 16px;
-    // letter-spacing: 0.02em;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: #757575;
     

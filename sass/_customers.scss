@@ -1,4 +1,7 @@
-.clients{
+
+.client-item:last-child{
+    margin-right: 0px;
+}.clients{
     display: flex;
     justify-content: center;
 }
@@ -9,7 +12,7 @@ margin-right: 30px;
 }
 }
 .clients-link {
-    @extend flex;
+  @extend %flex;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -28,9 +31,6 @@ margin-right: 30px;
 .clients-link:focus {
     border-color: #2196F3;
     fill: #2196F3;
-}
-.client-item:last-child{
-    margin-right: 0px;
 }
 .clients-icon{
     margin-top: 15px;

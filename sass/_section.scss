@@ -14,7 +14,7 @@
 }
 .wrap-item-list{
     width: 270px; height: 120px;
-    @extend flex;
+    @extend %flex;
     background-color: #F5F4FA;
     margin-bottom: 30px;
     }
